@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Opening: Software Developer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Job Opening: Software Developer</h1>
+    <h2>About the Job</h2>
+    <p>We are seeking a talented and motivated Software Developer to join our dynamic team. In this role, you will be responsible for designing, coding, and modifying software applications according to specifications.</p>
+    
+    <h2>Key Responsibilities</h2>
+    <ul>
+        <li>Develop and maintain software applications</li>
+        <li>Collaborate with cross-functional teams to define and develop new features</li>
+        <li>Write clean, scalable code using programming languages such as Java, Python, or JavaScript</li>
+        <li>Participate in code reviews and contribute to team best practices</li>
+    </ul>
+
+    <h2>Required Qualifications</h2>
+    <ul>
+        <li>Bachelor's degree in Computer Science or related field</li>
+        <li>3+ years of experience in software development</li>
+        <li>Proficiency in one or more programming languages</li>
+        <li>Strong problem-solving skills and attention to detail</li>
+    </ul>
+
+    <button id="interestButton" class="button">I'm Interested</button>
+
+    <script>
+        document.getElementById('interestButton').addEventListener('click', function() {
+            window.location.href = 'screening.html';'Great! We'll now proceed to the screening questions.');
+            // In a full implementation, this would redirect to the screening page
+            // window.location.href = 'screening.html';
+        });
+    </script>
+</body>
+</html>
