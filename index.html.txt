@@ -60,9 +60,9 @@
    <script>
     document.getElementById('interestButton').addEventListener('click', function() {
         window.location.href = 'screening.html';
-
     });
 </script>
+
         });
     </script>
 </body>
