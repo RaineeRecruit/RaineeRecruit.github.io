@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -44,6 +44,7 @@
         <li>Participate in code reviews and contribute to team best practices</li>
     </ul>
 
+
     <h2>Required Qualifications</h2>
     <ul>
         <li>Bachelor's degree in Computer Science or related field</li>
@@ -52,7 +53,9 @@
         <li>Strong problem-solving skills and attention to detail</li>
     </ul>
 
+
     <button id="interestButton" class="button">I'm Interested</button>
+
 
     <script>
         document.getElementById('interestButton').addEventListener('click', function() {
