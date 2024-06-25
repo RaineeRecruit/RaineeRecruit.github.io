@@ -57,11 +57,12 @@
     <button id="interestButton" class="button">I'm Interested</button>
 
 
-    <script>
-        document.getElementById('interestButton').addEventListener('click', function() {
-            window.location.href = 'screening.html';'Great! We'll now proceed to the screening questions.');
-            // In a full implementation, this would redirect to the screening page
-            // window.location.href = 'screening.html';
+   <script>
+    document.getElementById('interestButton').addEventListener('click', function() {
+        window.location.href = 'screening.html';
+
+    });
+</script>
         });
     </script>
 </body>
